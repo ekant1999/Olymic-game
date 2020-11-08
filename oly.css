@@ -1,0 +1,67 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bg {
+    background-image: url("man.jpg");
+
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+.w3-text-white, .w3-hover-text-white:hover {
+    color: #fff!important;
+    text-align: center;
+	width:94%;
+}
+.info p{
+	    color: white;
+	    font-size: 3.75vw;
+	    margin: 0 10%;
+}
+.info2 p{
+	font-size: 26px;
+	    color: white;
+	       width: 50%;
+    margin: 20vh auto 5%;
+}
+.w3-text-grey, .w3-hover-text-grey:hover, .w3-text-gray, .w3-hover-text-gray:hover {
+    color: #757575!important;
+}
+
+.w3-large {
+    font-size: 18px!important;
+}
+.w3-display-bottomleft {
+    position: absolute;
+    left: -7;
+    bottom: -140;
+}
+.schedule
+{
+	top:5em;
+	    padding-top: 0em;
+    margin-top: -4em;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:37.25%;
+    position:relative;
+    height:0;
+	right:-13%;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+  height:75%;
+    width:75%;
+    position:absolute;
+}
+</style>
